@@ -1,19 +1,18 @@
 {
-  "id": "./",
   "name": "خمّن الشعار",
   "short_name": "خمّن الشعار",
-  "description": "لعبة جماعية ممتعة لاختيار الشعار الصحيح.",
+  "description": "لعبة جماعية لتخمين شعارات الشركات العالمية — منافسة أفراد أو فرق مع مؤقت ونقاط.",
   "lang": "ar",
   "dir": "rtl",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["fullscreen", "standalone"],
   "orientation": "any",
-  "background_color": "#160d32",
-  "theme_color": "#6c4cff",
+  "background_color": "#F5EFDD",
+  "theme_color": "#F5EFDD",
   "icons": [
-    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
